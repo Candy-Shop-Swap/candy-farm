@@ -1,3 +1,5 @@
+// File: node_modules\@candyswap\candy-swap-lib\contracts\token\BEP20\IBEP20.sol
+
 
 pragma solidity >=0.4.0;
 
@@ -95,6 +97,10 @@ interface IBEP20 {
      */
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
+
+// File: node_modules\@candyswap\candy-swap-lib\contracts\math\SafeMath.sol
+
+
 
 pragma solidity >=0.4.0;
 
@@ -284,6 +290,10 @@ library SafeMath {
     }
 }
 
+// File: node_modules\@candyswap\candy-swap-lib\contracts\utils\Address.sol
+
+
+
 pragma solidity ^0.6.2;
 
 /**
@@ -444,6 +454,10 @@ library Address {
     }
 }
 
+// File: @candyswap\candy-swap-lib\contracts\token\BEP20\SafeBEP20.sol
+
+
+
 pragma solidity ^0.6.0;
 
 
@@ -543,6 +557,10 @@ library SafeBEP20 {
     }
 }
 
+// File: node_modules\@candyswap\candy-swap-lib\contracts\GSN\Context.sol
+
+
+
 pragma solidity >=0.4.0;
 
 /*
@@ -570,7 +588,12 @@ contract Context {
     }
 }
 
+// File: node_modules\@candyswap\candy-swap-lib\contracts\access\Ownable.sol
+
+
+
 pragma solidity >=0.4.0;
+
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
@@ -643,7 +666,16 @@ contract Ownable is Context {
     }
 }
 
+// File: @candyswap\candy-swap-lib\contracts\token\BEP20\BEP20.sol
+
+
+
 pragma solidity >=0.4.0;
+
+
+
+
+
 
 /**
  * @dev Implementation of the {IBEP20} interface.
@@ -1472,15 +1504,23 @@ contract SyrupBar is BEP20('SyrupBar Token', 'SYRUP') {
 
 pragma solidity 0.6.12;
 
+
+
+
+
+
+
+// import "@nomiclabs/buidler/console.sol";
+
 interface IMigratorChef {
-    // Perform LP token migration from legacy PancakeSwap to CandySwap.
+    // Perform LP token migration from legacy CandySwap to CandySwap.
     // Take the current LP token address and return the new LP token address.
     // Migrator should have full access to the caller's LP token.
     // Return the new LP token address.
     //
-    // XXX Migrator must have allowance access to PancakeSwap LP tokens.
+    // XXX Migrator must have allowance access to CandySwap LP tokens.
     // CandySwap must mint EXACTLY the same amount of CandySwap LP tokens or
-    // else something bad will happen. Traditional PancakeSwap does not
+    // else something bad will happen. Traditional CandySwap does not
     // do that so be careful!
     function migrate(IBEP20 token) external returns (IBEP20);
 }

@@ -1,6 +1,6 @@
 pragma solidity 0.6.12;
 
-import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/BEP20.sol";
+import "@candyswap/candy-swap-lib/contracts/token/BEP20/BEP20.sol";
 
 // CandyToken with Governance.
 contract CandyToken is BEP20('Candies', 'Candy') {

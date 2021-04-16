@@ -1,3 +1,6 @@
+// File: node_modules\@candyswap\candy-swap-lib\contracts\GSN\Context.sol
+
+
 
 pragma solidity >=0.4.0;
 
@@ -26,7 +29,12 @@ contract Context {
     }
 }
 
+// File: node_modules\@candyswap\candy-swap-lib\contracts\access\Ownable.sol
+
+
+
 pragma solidity >=0.4.0;
+
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where
@@ -98,6 +106,10 @@ contract Ownable is Context {
         _owner = newOwner;
     }
 }
+
+// File: node_modules\@candyswap\candy-swap-lib\contracts\token\BEP20\IBEP20.sol
+
+
 
 pragma solidity >=0.4.0;
 
@@ -195,6 +207,10 @@ interface IBEP20 {
      */
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
+
+// File: node_modules\@candyswap\candy-swap-lib\contracts\math\SafeMath.sol
+
+
 
 pragma solidity >=0.4.0;
 
@@ -384,6 +400,10 @@ library SafeMath {
     }
 }
 
+// File: node_modules\@candyswap\candy-swap-lib\contracts\utils\Address.sol
+
+
+
 pragma solidity ^0.6.2;
 
 /**
@@ -544,7 +564,16 @@ library Address {
     }
 }
 
+// File: @candyswap\candy-swap-lib\contracts\token\BEP20\BEP20.sol
+
+
+
 pragma solidity >=0.4.0;
+
+
+
+
+
 
 /**
  * @dev Implementation of the {IBEP20} interface.

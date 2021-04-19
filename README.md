@@ -3,7 +3,7 @@
 [![Actions Status](https://github.com/Candy-Shop-Swap/candy-farm/workflows/CI/badge.svg)](https://github.com/Candy-Shop-Swap/candy-farm/actions)
 [![codecov](https://codecov.io/gh/Candy-Shop-Swap/candy-farm/branch/master/graph/badge.svg?token=5XMLP74IR0)](https://codecov.io/gh/Candy-Shop-Swap/candy-farm)
 
-https://candyswap.finance. Feel free to read the code. More details coming soon.
+https://candyswap.online. Feel free to read the code. More details coming soon.
 
 ## Deployed Contracts / Hash
 

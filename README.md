@@ -15,3 +15,12 @@ https://candyswap.online. Feel free to read the code. More details coming soon.
 - (Uni|Candy)swapV2Router02 - https://bscscan.com/address/0xA1932815af17A35AdD66E21266c42e141153984a
 - (Uni|Candy)swapV2Pair init code hash - `0x1bf62b074b05054f9c4f737a0289314333b4d3da1999b0d46b792acc028694f8`
 - MultiCall - 0xE1dDc30f691CA671518090931e3bFC1184BFa4Aa
+
+
+
+***************
+***************
+***************
+***************
+***************
+
